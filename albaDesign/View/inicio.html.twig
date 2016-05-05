@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<?php
+session_start();
+?>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="/View/cssPrincipal/cssPrincipal.css"> 
+        <!-- Start WOWSlider.com HEAD section -->
+        <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+        <script type="text/javascript" src="engine1/jquery.js"></script>
+        <!-- End WOWSlider.com HEAD section -->
+        <title>Listado de Articulos del blog</title>
+        <style>
+            body{
+                background-color: black;
+                background:#fcf6ee url(../View/imagenes/revmodificado.jpg) top repeat-x;
+                margin:0;
+                padding:0;
+                width:100%;
+
+            }
+        </style>
+
+    </head>
+    <body>
+        <!-- Start WOWSlider.com BODY section -->
+        <div id="wowslider-container1">
+            <div class="ws_images"><ul>
+                    <li><img src="data1/images/rev.jpg" alt="rev" title="rev" id="wows1_0"/></li>
+                    <li><a href="http://wowslider.net"><img src="data1/images/rev__copia.jpg" alt="http://wowslider.net/" title="rev - copia" id="wows1_1"/></a></li>
+                    <li><img src="data1/images/revmodificado.jpg" alt="revmodificado" title="revmodificado" id="wows1_2"/></li>
+                </ul></div>
+            <div class="ws_bullets"><div>
+                    <a href="#" title="rev"><span><img src="data1/tooltips/rev.jpg" alt="rev"/>1</span></a>
+                    <a href="#" title="rev - copia"><span><img src="data1/tooltips/rev__copia.jpg" alt="rev - copia"/>2</span></a>
+                    <a href="#" title="revmodificado"><span><img src="data1/tooltips/revmodificado.jpg" alt="revmodificado"/>3</span></a>
+                </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.6</div>
+            <div class="ws_shadow"></div>
+        </div>	
+        <script type="text/javascript" src="engine1/wowslider.js"></script>
+        <script type="text/javascript" src="engine1/script.js"></script>
+        <!-- End WOWSlider.com BODY section -->
+        <div class="body">
+            <div class="barraNavegacion">
+                <div id="header">
+                    <ul class="nav" style="list-style-type:none;">
+                        <li style="float:left" ><a href="../Controller/indexArray.php">INICIO</a></li>
+                        <li style="float:left" ><a href="trabajos.php">TRABAJOS</a>
+                            <ul>
+                                <li><a href="../Controller/arrayPerfil.php">ILLUSTRATOR</a></li>
+                                <li><a href="../Controller/indexArrayMisComent.php">INDESIGN</a></li>
+                                <li><a href="cerrarSesion.php?cerrarsesion=">PHOTSHOP</a></li>
+                            </ul>
+                        </li>
+                        <li style="float:left"><a href="">CURRICULUM</a></li>
+                        <li style="float:left"><a href="">CONTACTO</a>
+                            <ul>
+                                <li><a href="">¿QUIEN SOY?</a></li>
+                                <li><a href="">CORREO</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clr"></div>
+        </div>
+    <body>
+</html>

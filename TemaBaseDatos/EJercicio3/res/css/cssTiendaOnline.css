@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 18, 2015, 1:18:35 AM
+    Author     : angelo
+*/
+
+body{
+    background-color: blue;
+}
+
+.catalago{
+    background-color: red;
+    width: 550px;
+    padding: 50px;
+    position: absolute;
+    left: 40px;
+}
+.carrito{
+    background-color: white;
+    position: absolute;
+    right: 40px;
+    width: 550px;
+    border:3px solid #73AD21;
+    padding: 50px;
+}
+
+.admin{
+    background-color: greenyellow;
+    position: absolute;
+    right: 725px;
+    width: 300px;
+    border:3px solid #73AD21;
+    padding: 50px;
+}
+
+.catalagoDetalle{
+    background-color: blue;
+}
+
+.catalagoDetalle img{
+    width: 500px; 
+    height: 500px;
+}

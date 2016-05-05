@@ -1,0 +1,77 @@
+
+
+.muestraAlmacen{
+   width: 900px;
+   margin-left:  20px; 
+   text-align: center;
+   font-size: 13px;
+   
+}
+
+.altaProducto{
+    float: right;
+    margin-top: -280px;
+}
+
+.anadirStock{
+    float: right;
+    margin-top: -100px;
+    margin-right: 500px;
+}
+.articuloVenta{
+    float: right;
+    margin-top: -100px;
+    margin-right: -700px;
+}
+
+.factura{
+    float: left;
+    margin-top: 100px;
+    margin-left:  20px;
+}
+
+.facturaMuestra{
+    float: left;
+    margin: 0 auto;
+    margin-to:  200px;
+}
+
+.modifica {
+    float: left;
+    margin: 0 auto;
+    padding-top: 50px;
+    margin-left:  20px; 
+    
+}
+
+div table.modifica2  {
+    width: 100%;
+   
+    
+}
+
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

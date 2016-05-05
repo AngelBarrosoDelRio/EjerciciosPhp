@@ -1,0 +1,220 @@
+
+///BARRA NAVEGACION PAGINA PRINCIPAL///
+
+.body{
+    background:#fcf6ee url(../View/imagenes/rev.jpg) top repeat-x;
+    
+    
+    
+}
+.barraNavegacion{
+    width: 76%;
+    margin: 0 auto;
+    margin-top: 600px;
+    
+   
+}
+#header {
+    margin: 0 auto;
+    width:99%;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 55px;
+    background-color: black;
+    margin-right: 100px;
+    
+    
+    
+}
+.nav{
+    position: static;
+    margin-left: 200px;
+        
+
+    
+}
+
+ul, ol {
+        list-style:none;
+       
+        
+        
+}
+
+.nav > li {
+        float:left;
+        
+}
+
+.nav li a {
+        background-color:#000;
+        color:#fff;
+        text-decoration:none;
+        padding:18px 12px;
+        display:block;
+        margin-left: 100px;
+        
+}
+
+.nav li a:hover {
+        background-color:orangered;
+}
+
+.nav li ul {
+        display:none;
+        position:absolute;
+        min-width:140px;
+}
+
+.nav li:hover > ul {
+        display:block;
+}
+
+.nav li ul li {
+        position:relative;
+}
+
+.nav li ul li ul {
+        right:-140px;
+        top:0px;
+}
+
+///////////////FIN BARRA NAVEGACION PAGINA INICIO/////////////////////////
+
+
+///BARRA NAVEGACION GENERAL///
+
+
+.barraNavegacionGeneral{
+    width: 76%;
+    margin: 0 auto;
+    margin-top: 600px;
+    
+   
+}
+#headerGeneral {
+    margin: 0 auto;
+    width:80%;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 55px;
+    background-color: black;
+    
+    
+    
+    
+}
+.navGeneral{
+    position: static;
+    margin-left: 200px;
+        
+
+    
+}
+
+ul, ol {
+        list-style:none;
+       
+        
+        
+}
+
+.navGeneral > li {
+        float:left;
+        
+}
+
+.navGeneral li a {
+        background-color:#000;
+        color:#fff;
+        text-decoration:none;
+        padding:18px 12px;
+        display:block;
+        margin-left: 100px;
+        
+}
+
+.navGeneral li a:hover {
+        background-color:orangered;
+}
+
+.navGeneral li ul {
+        display:none;
+        position:absolute;
+        min-width:140px;
+}
+
+.navGeneral li:hover > ul {
+        display:block;
+}
+
+.navGeneral li ul li {
+        position:relative;
+}
+
+.navGeneral li ul li ul {
+        right:-140px;
+        top:0px;
+}
+
+///////////////FIN BARRA NAVEGACION PAGINA general/////////////////////////
+.FBG {
+	margin:0;
+	padding:0;
+	border-top:1px solid #dcdad8;
+        
+        
+}
+.FBG_resize{
+    margin-left: 300px;
+}
+.FBG img {
+	float:left;
+	margin:5px 10px 5px 0;
+	padding:0;
+}
+.FBG h2 {
+	font:bold 24px Arial, Helvetica, sans-serif;
+	color:#323a3f;
+	padding:10px 5px;
+	margin:5px 0 10px 0;
+}
+.FBG p {
+	font:normal 12px Arial, Helvetica, sans-serif;
+	color:#5f5f5f;
+	padding:5px;
+	margin:0;
+	line-height:1.8em;
+}
+.FBG a {
+	color:#97c950;
+	text-decoration:underline;
+}
+.FBG ul {
+	list-style:none;
+	margin:5px 0;
+	padding:0;
+}
+.FBG li {
+	background:10px 10px no-repeat;
+	font:normal 14px Arial, Helvetica, sans-serif;
+	color:#464646;
+	padding:5px 0;
+	margin:3px 0;
+}
+.FBG li a {
+	padding:0 0 0 5px;
+	margin:0;
+	font:normal 13px Arial, Helvetica, sans-serif;
+	color:#5f5f5f;
+	text-decoration:none;
+}
+.FBG li a:hover {
+	color:#97c950;
+	text-decoration:none;
+}
+.FBG .blok {
+	width:280px;
+	float:left;
+	padding:10px 20px;
+	margin:0;
+}
+

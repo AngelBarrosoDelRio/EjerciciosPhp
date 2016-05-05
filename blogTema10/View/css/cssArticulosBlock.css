@@ -1,0 +1,272 @@
+header{
+    background-color: black;
+    width: 100%;
+    height: 220px;
+    background-image: url('../imagenes/unnamed.jpg');
+    background-repeat: no-repeat;
+    
+}
+body{
+    background-color: gray;
+    margin-bottom: 0 ;
+    margin-top: 0;
+    height: 100%;
+    
+}
+.footer{
+    background-color:  black;
+    height: 6%;
+    margin-top: 40%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    
+}
+.footer p{
+    
+    
+    text-align: center;
+    color:white;
+    font-family: Montserrat, sans-serif; 
+    
+}
+a:link {
+    text-decoration: none;
+    
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: navy;
+}
+h1{
+    text-align: center;
+    margin-top: 0;
+}
+.h1Cabecera{
+    padding-top: 70px;
+    
+}
+.h3Coment{
+    padding-top: 30px;
+    padding-left: 20px;;
+    float: left;
+    
+}
+.divnuevoArticulo{
+    padding-top: 9.7%;
+    padding-left: 20px;
+    width: 0;
+}
+.blockArticle{
+    
+    background-color: white;
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+    border-radius: 25px;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.blockArticleComent{
+    background-color: white;
+    width: 30%;
+    position: relative;
+    margin-left: 35%; 
+    margin-top: 3%;
+    box-shadow: 10px 10px 5px black;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    
+    
+}
+
+.titulosArticulos{
+    
+    background-color: black;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.titulosArticulos h3{
+    color:white;
+    
+}
+.articuloContenido{
+    text-align: left;
+    font-size: 20px;
+    font-family: sans-serif;
+    width: auto; 
+    margin-left: 70px;
+}
+
+.fechaArticulos{
+    
+  
+    font-style: normal; 
+    position: static;
+    height: 20px;
+    text-align: left;
+    margin-left: 70px;
+    width: 75px;
+}
+.formularios{
+    position: relative;
+    background-color: black;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    opacity: 0.9;
+    
+    
+    
+}
+input[type=text]:focus {
+    background-color: lightblue;
+}
+input[type=number]:focus {
+    background-color: lightblue;
+}
+textarea[type=text]:focus {
+    background-color: lightblue;
+}
+.modifica{
+    position: static;
+    width: 50%;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    float:left;
+    
+    border-bottom-left-radius: 25px;
+}
+
+.elimina{
+    position: static;
+    width: 50%;
+    background-color:black ;
+    padding: 0;
+    margin: 0;
+    float:left;
+    
+    
+}
+.clear{
+    clear: both;
+}
+
+.formularioModifica{
+    position: relative;
+    margin-left: 36%;
+    
+    
+}
+
+.comRegre{
+     
+    background-color: dimgrey;
+    margin-left: 70px;
+    width: 0;
+}
+.comRegre2{
+    width: 0;
+    background-color: dimgrey;
+    position: static;
+    margin-left: 47%;
+    padding-top: 20px;
+    margin-bottom: 10%;
+}
+.botonRegresar{
+    cursor: pointer;
+    padding: 10px 40px;
+    
+}
+.clear{
+    clear: both;
+}
+.identidad{
+    display: inline;
+    position: static;
+    float:right;
+    padding-top: 5px;
+}
+.identidad p span{
+    padding: 14px;
+    
+    
+}
+.accesoPrincipal{
+   
+    padding-top: 6%;
+    width: 20%;
+    height: 90%;
+    margin: 0 auto;
+    
+    
+}
+.titulosComent{
+    background-color: black;
+    width: 100%;
+    position: relative;
+    text-align: left;
+    font-size: 20px;
+    font-family: cursive;
+    opacity: 0.8;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.titulosComent h7{
+    padding-left: 5%;
+    color:white;
+}
+
+.imput{
+    color: black;
+}
+.seElPrimero{
+    
+   padding-left: 47%;
+   padding-bottom: 5%;
+}
+
+.botonArriba{
+    padding-bottom: 6%;
+    
+    
+}
+.navbar-inverse{
+    height: 40px;
+}
+.perfil{
+    border: solid 2px black;
+    width: 650px;
+    margin: 0 auto;
+    height: 250px;
+    
+}
+.datos{
+   border: solid 2px black;
+   text-align: center;
+   font-size: 20px;
+   margin-top: 40px;
+   width: 500px;
+   margin-left: auto;
+   margin-right: auto;
+}
+h3{
+    padding-left: 5%;
+    
+}
+
+////////////////////////////////////////
+//prueba
+
+                       
